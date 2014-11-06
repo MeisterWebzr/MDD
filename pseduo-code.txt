@@ -1,0 +1,25 @@
+user request url http:meisterwebzr.com/portfolio
+
+	publish one .html page containing
+
+		(10) items for portfolio
+
+example of portfolio system
+
+	title: Portfolio Item 1
+	description: One sentence about the item
+	share link: Facebook, twitter, instagram
+
+when you clicks on images 
+	image will pop out larger
+
+contact section/ request for job
+
+	get information form user
+
+	inputs - name, phone number, company, job description & salary, links to corp website
+
+	verify all inputs
+	submit using post information to database and notify user of successful request via js message
+
+user exits 
