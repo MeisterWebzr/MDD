@@ -2,7 +2,7 @@ Meister's Design & Development Process
 
 # Deployment Plan
 
-## Test/ Update files/ features loaclly
+## Test/ Update files &amp; Features locally
 
 ##### Make change to file
 > 1. git add -A
