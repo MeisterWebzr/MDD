@@ -2,29 +2,28 @@ Meister's Design & Development Process
 
 # Deployment Plan
 
-## Select Master Branch
-
-### Merge Dev Branch into Master
-* $ git checkout master
-* $ git pull **github** master
-  * Resolve any conflicts
-
-## Update Files
+## Test/ Update files/ features loaclly
 
 ##### Make change to file
 > 1. git add -A
-> 2. git commit -m “detailed update note”
+> 2. git commit -m “detailed update of changes”
 
 ### Promote to Staging
-* $ git push staging 
+* $ git push stage1 master
 
 ### Test Staging
 * Replicate any issues in local dev environment
 * A new local dev branch may be needed to start over
 
-### Promote to Production
+### Promote to Production/ sLive
 * Have other users try it out prior to going live in production
 * If no issues are present promote to Production server
+
+### Promote to Live Server
+* $ git push sLive master
+
+
+
 =======
 Analyze & Design
 -------------
