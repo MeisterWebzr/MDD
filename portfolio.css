@@ -160,7 +160,7 @@ h6 {
 #fontawesome{
 
     width: 250px;
-    height: auto;
+    height: 250px;
 }
 
 @media(max-width:1199px) {
