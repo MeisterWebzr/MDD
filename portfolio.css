@@ -131,6 +131,11 @@ h6 {
     margin-top: 0;
 }
 
+#fontawesome{
+
+    width: 250px;
+    height: 250px;
+}
 <<<<<<< HEAD
 .img-center{
 
@@ -157,11 +162,7 @@ h6 {
 >>>>>>> simpleNavigation
 
 
-#fontawesome{
 
-    width: 250px;
-    height: 250px;
-}
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
