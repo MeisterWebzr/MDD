@@ -156,6 +156,13 @@ h6 {
 =======
 >>>>>>> simpleNavigation
 
+
+#fontawesome{
+
+    width: 250px;
+    height: auto;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
