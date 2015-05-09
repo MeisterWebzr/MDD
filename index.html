@@ -16,12 +16,22 @@
 		<!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" type="text/css" href="http://jschr.github.io/bootstrap-modal/css/bootstrap-modal-bs3patch.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 
 		<!-- Custom Font-->
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
         
+        <!-- Animation Java
+        <script src="js/modernizr_2.8.3.js"></script>
+        <script>
+          if (Modernizr.canvas) {
+            console.log("This browser supports HTML5 canvas!");
+          } else {
+            console.log("no canvas :(");
+            alert("Your browser doesn't support canvas so you wont see my interactive animations. Try using the latest: Safari, Chrome or Opera web browsers. ");
+          }
+        </script>
+
 
 		 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!--[if lt IE 9]>
@@ -75,7 +85,7 @@
             <div id="home"class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Otto Burroughs</h1>
+                        <h1 id="fade-in">Otto Burroughs</h1>
                         <h3>"The heart and soul of the company is creativity and innovation." B, Iger</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
@@ -102,6 +112,7 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
+    <div id="projects"></div>
     <!-- section b-->
     <div class="content-section-b">
 
@@ -132,7 +143,7 @@
     <!-- content-section-a -->
     <div class="content-section-a">
 
-        <div  id="projects" class="container">
+        <div  class="container">
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -479,12 +490,12 @@
 
         <div id="contact" class="container">
 
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row-fluid">
+                <div class="col-lg-6" id="mConnect">
                     <h2>Connect w/ Meister:</h2>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
+                <div class="col-lg-12">
+                    <ul id="socialBTNS"class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://twitter.com/MeisterWebzr" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
@@ -507,7 +518,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
@@ -528,6 +539,24 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    $(document).ready(function(){
+
+
+        // animate some examples
+            scrollorama.animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true });
+            scrollorama.animate('#fade-in',{ delay: 400, duration: 300, property:'opacity', start:0 });
+            scrollorama.animate('#fly-in',{ delay: 400, duration: 300, property:'left', start:-1400, end:0 });
+            scrollorama.animate('#rotate-in',{ duration: 800, property:'rotate', start:720 });
+            scrollorama.animate('#zoom-in',{ delay: 200, duration: 600, property:'zoom', start:8 });
+            scrollorama.animate('#any',{ delay: 700, duration: 200, property:'opacity', start:0 });
+            scrollorama.animate('#any',{ delay: 800, duration: 200, property:'letter-spacing', start:18 });
+
+
+
+        });
+    </script>
 
 	
 	<!-- Bootstrap core JavaScript
