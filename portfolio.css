@@ -57,6 +57,17 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -68,7 +79,7 @@ h6 {
 
     ul.intro-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         padding: 0;
     }
 
@@ -127,7 +138,7 @@ h6 {
 }
 
 .banner-social-buttons {
-    float: right;
+
     margin-top: 0;
 }
 
@@ -163,36 +174,38 @@ h6 {
 
 
 
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
 @media(max-width:767px) {
     
-    body{background-color: red;}
-
-    
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 30px;
+        padding: 0;
+    }
 
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+
         font-size: 3em;
     }
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
 
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+        margin-bottom: 0;    }
 }
+
+#meister-name{
+
+    padding-bottom: 15px;
+}
+
+.socialBTNS{
+    
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
 
 footer {
     padding: 50px 0;
