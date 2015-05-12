@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * SocalFreelancer.net - Otto Burroughs - Meister Webzr ePortfolio Theme 
+ * Fork on github https://github.com/MeisterWebzr/MDD/
+ * For details, see https://github.com/MeisterWebzr/MDD
  */
 
 body,
@@ -24,6 +24,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .intro-header {
@@ -65,6 +66,7 @@ h6 {
 
 .contact-form {
     margin-top:70px;
+    font: red;
 }
 
 footer{
