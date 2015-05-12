@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 		<meta charset="utf-8">
@@ -464,8 +462,8 @@
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img style="position: relative; top: 55px;" class="img-responsive" src="http://i61.tinypic.com/2w6igbb.jpg" alt="">
                     <button style="position: relative; top: 75px;"type="button" data-toggle="modal" href="#responsive" class="btn btn-default">Details</button>
-                    <button style="position: relative; top: 75px; left 35px; " type="button"  class="btn btn-default"><a href="https://github.com/MeisterWebzr/WDP">Repo</button>
-                    <button style="position: relative; top: 75px; left 70px; " type="button"  class="btn btn-default"><a href="http://meisterwebzr.github.io/WDP/index.html">Live</button>
+                    <button style="position: relative; top: 75px; left 35px; " type="button"  class="btn btn-default"><a href="https://github.com/MeisterWebzr/WDP">Repo</a></button>
+                    <button style="position: relative; top: 75px; left 70px; " type="button"  class="btn btn-default"><a href="http://meisterwebzr.github.io/WDP/index.html">Live</a></button>
                 </div>
             </div>
         </div>
@@ -476,19 +474,24 @@
 
     <!-- Contact Section Begin --> 
     <div class="banner">
+        <div class="container">
+
+            <?=$thankYou ?>
+
+        </div>
             <div class="container">
                 <div class="row">
                 <div class="col-sm-4">
                     <h3>Need help? Request my time!</h3>
                     <hr>
                     <address>
-                    <strong>Email:</strong> <a href="mailto:freelancer@meisterwebzr.com"> Freelancer@meisterwebzr.com</a><br><br>
+                    <strong></strong> </a><br><br>
                     <strong>Rates:</strong> From $35/hr depending on project scope.
                     </address>
                 </div>
                         
                 <div class="col-sm-8 contact-form">
-                    <form id="contact" method="post" action="mailto:freelancer@meisterwebzr.com" class="form" role="form">
+                    <form id="contact" method="post" action="contact.php" class="form" role="form">
                         <div class="row">
                         <div class="col-xs-6 col-md-6 form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
