@@ -261,3 +261,36 @@ footer{
     
     
 }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size*/ 
+@media only screen and (max-width: 350px) {
+    
+    html{
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+
+    iframe{
+        margin: 0 auto;
+        padding: 3px;
+        width: 350px;
+        height: auto;
+    }
+    
+    
+}
+
+/*iPhone < 5 */
+@media screen and (device-aspect-ratio: 2/3) {
+
+    iframe{
+        margin: 0 auto;
+        padding: 3px;
+        width: 250px;
+        height: auto;
+    }
+    
+
+}
