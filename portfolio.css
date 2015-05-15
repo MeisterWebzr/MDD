@@ -1,7 +1,9 @@
 /*!
- * SocalFreelancer.net - Otto Burroughs - Meister Webzr ePortfolio Theme 
+ * Author: Otto Burroughs - Meister Webzr 
+ * Description: ePortfolio 
  * Fork on github https://github.com/MeisterWebzr/MDD/
- * For details, see https://github.com/MeisterWebzr/MDD
+ * Linkedin: https://www.linkedin.com/in/oburroughs
+ * Twitter: @meisterwebzr
  */
 
 body,
@@ -187,45 +189,75 @@ footer{
 =======
 >>>>>>> simpleNavigation
 
-
-
-@media(max-width:767px) {
+/* Tablet Portrait size to Base 996px*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
     
+       
+        
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 30px;
         padding: 0;
-    }
+        }
 
     .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-
-        font-size: 3em;
-    }
+            margin: 0;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size: 3em;
+        }
 
 
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;    }
-}
+            margin-bottom: 0;
 
-#meister-name{
-
-    padding-bottom: 15px;
-}
-
-.socialBTNS{
+    }
     
-    margin: 0 auto;
-    padding: 10px;
+
+    #meister-name{
+        padding-bottom: 15px;
+    }
+
+    .socialBTNS{
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+
+    footer {
+        padding: 15px auto;
+    }
+
+    p.copyright {
+        margin: 0 0 0;
+    }
+
+    
+
 }
 
+    
+    
+/* Mobile Portrait Size to Mobile Landscape Size*/ 
+@media only screen and (max-width: 479px) {
+    
+    html{
+        margin: 0 auto;
+        padding: 0px;
+    }
 
 
-footer {
-    padding: 15px auto;
-}
-
-p.copyright {
-    margin: 0 0 0;
+    iframe{
+        margin: 0 auto;
+        padding: 3px;
+        width: 350px;
+        height: auto;
+    }
+    
+    
 }
